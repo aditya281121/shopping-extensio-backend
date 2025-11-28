@@ -4,6 +4,7 @@
   "description": "A Chrome extension with cart saver and auto fill.",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,6 +15,19 @@
   "author": "Aditya Chauhan",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.20.1",
+    "morgan": "^1.10.1",
+    "validator": "^13.15.23"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.1"
   }
 }
