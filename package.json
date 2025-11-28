@@ -1,0 +1,19 @@
+{
+  "name": "smart-shopping-extensio",
+  "version": "1.0.0",
+  "description": "A Chrome extension with cart saver and auto fill.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  "author": "Aditya Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
